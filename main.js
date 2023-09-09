@@ -8,7 +8,7 @@ var circle = document.querySelector(".circle");
 circle.addEventListener("click", () => {
     sun.textContent = " ";
     if(flag == 0) {
-        all.style.backgroundColor = "black";
+        all.style.backgroundColor = "#020817";
         heading.style.color = "white";
         flag = 1;
         
@@ -57,10 +57,3 @@ function moveLeft () {
 }
 
 
-var red = document.querySelector(".red-arrow");
-red.addEventListener("click", write);
-
-function write () {
-    let div = document.createElement("div");
-    
-}
