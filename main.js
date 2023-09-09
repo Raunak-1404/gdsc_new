@@ -4,14 +4,16 @@ var toggle_plane = false;
 var heading = document.querySelector(".RCOEM");
 var plane = document.querySelector(".plane");
 var sun = document.querySelector(".sun");
+var box = document.querySelectorAll(".box");
 var circle = document.querySelector(".circle");
+
 circle.addEventListener("click", () => {
     sun.textContent = " ";
     if(flag == 0) {
         all.style.backgroundColor = "#020817";
         heading.style.color = "white";
         flag = 1;
-        
+        apps_b();
         moveRight();
     } 
 
@@ -20,6 +22,7 @@ circle.addEventListener("click", () => {
         all.style.backgroundColor = "white";
         flag = 0;
         moveLeft();
+        apps_w();
     }
 })
 
@@ -56,4 +59,15 @@ function moveLeft () {
     }
 }
 
+function apps_b () {
+    for(let i = 0; i <= 2; i++) {
+        box[i].style.backgroundColor = "#020817";
+    }
+}
+
+function apps_w () {
+    for(let i = 0; i <= 2; i++) {
+        box[i].style.backgroundColor = "white";
+    }
+}
 
