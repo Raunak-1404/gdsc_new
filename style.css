@@ -1,0 +1,252 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.rnav h2 {
+    color: #868686;
+    font-family: Google Sans;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.04688rem;
+}
+
+.lnav h2 {
+    color: #868686;
+    font-family: Google Sans;
+    font-size: 1.36719rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.041rem;
+}
+
+.heading h1 {
+    color: #646464;
+    font-family: Google Sans;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.info h3 {
+    color: #5F5F5F;
+    text-align: center;
+    font-family: Google Sans;
+    font-size: 2.05rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container2 h1 {
+    color: #5F5F5F;
+    font-family: Google Sans;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 5.625rem */
+    letter-spacing: -0.0825rem;
+}
+
+.container2 h2 {
+    color: #5F5F5F;
+    font-family: Product Sans Medium;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 4.6875rem */
+    letter-spacing: -0.06875rem;
+}
+
+.mission1 .msn-txt .ms1-txt {
+    color: #5F5F5F;
+    text-align: right;
+    font-family: Product Sans Medium;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 2.8125rem */
+    letter-spacing: -0.04125rem;
+}
+
+.perspective .heading4 {
+    color: #5F5F5F;
+    font-family: Product Sans Medium;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 4.6875rem */
+    letter-spacing: -0.06875rem;
+}
+
+.pers-txt p {
+    color: #5F5F5F;
+    font-family: Product Sans Medium;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 2.8125rem */
+    letter-spacing: -0.04125rem;
+}
+
+.text {
+    color: #5F5F5F;
+    text-align: right;
+    font-family: Product Sans Medium;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 2.8125rem */
+    letter-spacing: -0.04125rem;
+}
+
+.circle h1 {
+    color: #5F5F5F;
+    font-family: Google Sans;
+    font-size: 4.6875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.circle h2 {
+    color: #353535;
+    text-align: center;
+    font-family: Google Sans;
+    font-size: 2.625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.technology h1 {
+    color: #5F5F5F;
+    text-align: center;
+    font-family: Google Sans;
+    font-size: 4.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 6.5625rem */
+    letter-spacing: -0.09625rem;
+}
+
+.subhead h1 {
+    color: #5F5F5F;
+    text-align: center;
+    font-family: Google Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 3rem */
+    letter-spacing: -0.022rem;
+}
+
+.android h1 {
+    color: #5F5F5F;
+    font-family: Google Sans;
+    font-size: 2.98694rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.flutter h1 {
+    color: #5F5F5F;
+    font-family: Google Sans;
+    font-size: 2.98694rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cloud h1 {
+    color: #5F5F5F;
+    font-family: Google Sans;
+    font-size: 2.98694rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container7 .heading {
+    color: #5F5F5F;
+    text-align: center;
+    font-family: Google Sans;
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 5.625rem */
+    letter-spacing: -0.04125rem;
+}
+
+.details details summary {
+    color: #5F5F5F;
+    text-align: center;
+    font-family: Google Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 3rem */
+    letter-spacing: -0.022rem;
+    list-style: none;
+}
+
+.details div p {
+    color: #5F5F5F;
+    font-family: Google Sans;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 2.34375rem */
+    letter-spacing: -0.01719rem;
+}
+
+.details1 details summary {
+    color: #5F5F5F;
+    text-align: center;
+    font-family: Google Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 3rem */
+    letter-spacing: -0.022rem;
+    list-style: none;
+}
+
+.details1 div p {
+    color: #5F5F5F;
+    font-family: Google Sans;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 2.34375rem */
+    letter-spacing: -0.01719rem;
+}
+
+.footer {
+    border-top-left-radius: 7.375rem;
+    border-top-right-radius: 7.375rem;
+    background: linear-gradient(270deg, #4285F4 -7.42%, rgba(61, 120, 218, 0.50) 53.4%, rgba(23, 18, 76, 0.00) 116.26%);
+}
+
+
+.join-btn {
+    transform: scale(1);
+    transition: 1s ease;
+}
+
+.join-btn:hover {
+    transform: scale(1.1);
+}
